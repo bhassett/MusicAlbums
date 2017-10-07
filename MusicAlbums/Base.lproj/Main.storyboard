@@ -40,32 +40,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v9w-Wd-eQk">
-                                <rect key="frame" x="48" y="107" width="280" height="150"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cheshire.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v9w-Wd-eQk">
+                                <rect key="frame" x="68" y="84" width="240" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="0Jr-8k-JwX"/>
-                                    <constraint firstAttribute="height" constant="150" id="7dI-ge-rlW"/>
+                                    <constraint firstAttribute="width" constant="240" id="Dhy-Ip-QfA"/>
+                                    <constraint firstAttribute="height" constant="150" id="xyT-eI-eTm"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m05-Hm-TYs">
-                                <rect key="frame" x="48" y="282" width="280" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m05-Hm-TYs">
+                                <rect key="frame" x="68" y="244" width="240" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCd-Xq-pHp">
-                                <rect key="frame" x="172" y="342" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCd-Xq-pHp">
+                                <rect key="frame" x="172" y="294" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="m05-Hm-TYs" firstAttribute="centerX" secondItem="WPY-Vq-oLw" secondAttribute="centerX" id="FZS-cL-cbk"/>
+                            <constraint firstItem="v9w-Wd-eQk" firstAttribute="top" secondItem="5QX-UV-lwF" secondAttribute="top" constant="20" id="H9x-KN-dTu"/>
                             <constraint firstItem="m05-Hm-TYs" firstAttribute="top" secondItem="v9w-Wd-eQk" secondAttribute="bottom" constant="10" id="Ju2-bi-EA7"/>
                             <constraint firstItem="PCd-Xq-pHp" firstAttribute="top" secondItem="m05-Hm-TYs" secondAttribute="bottom" constant="20" id="bjl-Ud-CDa"/>
                             <constraint firstItem="m05-Hm-TYs" firstAttribute="width" secondItem="v9w-Wd-eQk" secondAttribute="width" id="lNc-dH-23A"/>
+                            <constraint firstItem="v9w-Wd-eQk" firstAttribute="centerX" secondItem="WPY-Vq-oLw" secondAttribute="centerX" id="o1u-ax-8IU"/>
                             <constraint firstItem="PCd-Xq-pHp" firstAttribute="centerX" secondItem="WPY-Vq-oLw" secondAttribute="centerX" id="vrj-c0-LUA"/>
-                            <constraint firstItem="v9w-Wd-eQk" firstAttribute="centerX" secondItem="WPY-Vq-oLw" secondAttribute="centerX" id="xgx-6V-ta1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5QX-UV-lwF"/>
                     </view>
@@ -99,4 +100,7 @@
             <point key="canvasLocation" x="-99.200000000000003" y="476.76161919040482"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Cheshire.jpg" width="900" height="1268"/>
+    </resources>
 </document>

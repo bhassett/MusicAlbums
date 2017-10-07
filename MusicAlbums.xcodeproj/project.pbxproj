@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33F93181F86CC9C006D1F32 /* Cheshire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33F93171F86C9A9006D1F32 /* Cheshire.jpg */; };
 		D3E55E9F1F8570B2008B6410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E55E9E1F8570B2008B6410 /* AppDelegate.swift */; };
 		D3E55EA11F8570B2008B6410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E55EA01F8570B2008B6410 /* ViewController.swift */; };
 		D3E55EA41F8570B2008B6410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E55EA21F8570B2008B6410 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33F93171F86C9A9006D1F32 /* Cheshire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cheshire.jpg; sourceTree = "<group>"; };
 		D3E55E9B1F8570B2008B6410 /* MusicAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E55E9E1F8570B2008B6410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E55EA01F8570B2008B6410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				D3E55E9E1F8570B2008B6410 /* AppDelegate.swift */,
 				D3E55EA01F8570B2008B6410 /* ViewController.swift */,
+				D33F93171F86C9A9006D1F32 /* Cheshire.jpg */,
 				D3E55EA21F8570B2008B6410 /* Main.storyboard */,
 				D3E55EA81F8570B3008B6410 /* Assets.xcassets */,
 				D3E55EAA1F8570B3008B6410 /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 			files = (
 				D3E55EAC1F8570B3008B6410 /* LaunchScreen.storyboard in Resources */,
 				D3E55EA91F8570B3008B6410 /* Assets.xcassets in Resources */,
+				D33F93181F86CC9C006D1F32 /* Cheshire.jpg in Resources */,
 				D3E55EA41F8570B2008B6410 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

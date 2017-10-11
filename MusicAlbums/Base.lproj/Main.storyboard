@@ -32,22 +32,22 @@
             </objects>
             <point key="canvasLocation" x="-236" y="-291"/>
         </scene>
-        <!--View Controller-->
+        <!--Album View Controller-->
         <scene sceneID="l9P-Gg-lBZ">
             <objects>
-                <viewController id="QJV-rd-40g" sceneMemberID="viewController">
+                <viewController id="QJV-rd-40g" customClass="AlbumViewController" customModule="MusicAlbums" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WPY-Vq-oLw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cheshire.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v9w-Wd-eQk">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cheshire.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v9w-Wd-eQk">
                                 <rect key="frame" x="68" y="84" width="240" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Dhy-Ip-QfA"/>
                                     <constraint firstAttribute="height" constant="150" id="xyT-eI-eTm"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m05-Hm-TYs">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m05-Hm-TYs">
                                 <rect key="frame" x="68" y="244" width="240" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

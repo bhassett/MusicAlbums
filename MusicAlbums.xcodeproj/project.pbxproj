@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30A50E81F8858220030A36C /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30A50E71F8858220030A36C /* AlbumViewController.swift */; };
 		D33F93181F86CC9C006D1F32 /* Cheshire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33F93171F86C9A9006D1F32 /* Cheshire.jpg */; };
 		D3E55E9F1F8570B2008B6410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E55E9E1F8570B2008B6410 /* AppDelegate.swift */; };
 		D3E55EA11F8570B2008B6410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E55EA01F8570B2008B6410 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D30A50E71F8858220030A36C /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		D33F93171F86C9A9006D1F32 /* Cheshire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cheshire.jpg; sourceTree = "<group>"; };
 		D3E55E9B1F8570B2008B6410 /* MusicAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E55E9E1F8570B2008B6410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				D3E55EA01F8570B2008B6410 /* ViewController.swift */,
 				D33F93171F86C9A9006D1F32 /* Cheshire.jpg */,
 				D3E55EA21F8570B2008B6410 /* Main.storyboard */,
+				D30A50E71F8858220030A36C /* AlbumViewController.swift */,
 				D3E55EA81F8570B3008B6410 /* Assets.xcassets */,
 				D3E55EAA1F8570B3008B6410 /* LaunchScreen.storyboard */,
 				D3E55EAD1F8570B3008B6410 /* Info.plist */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30A50E81F8858220030A36C /* AlbumViewController.swift in Sources */,
 				D3E55EA11F8570B2008B6410 /* ViewController.swift in Sources */,
 				D3E55EA71F8570B3008B6410 /* MusicAlbums.xcdatamodeld in Sources */,
 				D3E55E9F1F8570B2008B6410 /* AppDelegate.swift in Sources */,
